@@ -45,12 +45,13 @@
     top: 50%;
 }
 
-.menu .l-22 {
+
+/* .menu .l-22 {
     background-color: #ff5733;
     position: absolute;
     text-align: center;
     top: 50%;
-}
+} */
 
 .menu .l-3 {
     background-color: #ff5733;
@@ -73,11 +74,12 @@
     width: 0px;
 }
 
-.cross .l-22 {
+
+/* .cross .l-22 {
     transform: translateX(30px);
     color: red;
     width: 0px;
-}
+} */
 
 .cross .l-3 {
     position: absolute;
