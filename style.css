@@ -85,8 +85,8 @@
     position: absolute;
     transform: rotate(45deg);
     background-color: #23c731;
-    left: 10px;
-    top: 14px;
+    left: 9px;
+    top: 13px;
 }
 
 
@@ -98,6 +98,7 @@
     background-color: #daf7a6;
     position: absolute;
     float: right;
+    top: -5px;
     margin-right: 20px;
     position: relative;
     border-radius: 0px 10px 0px 10px;
@@ -164,4 +165,152 @@
     transform: rotate(45deg);
     background-color: #af33ff;
     left: 23px;
+}
+
+@media screen and (max-width: 460px) {
+    .continer {
+        background-color: #23b9c7;
+        height: 100vh;
+    }
+    .menu {
+        height: 30px;
+        width: 50px;
+        background-color: #daf7a6;
+        position: absolute;
+        float: left;
+        left: 50px;
+        transform: translate(-50%, -50%);
+        position: relative;
+        /* border-radius: 10px 0 10px 0; */
+        cursor: pointer;
+    }
+    .menu span {
+        width: 30px;
+        height: 3px;
+        background-color: #daf7a6;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+        cursor: pointer;
+        z-index: 100;
+        transition: all 0.5s ease-in-out;
+    }
+    .menu .l-1 {
+        background-color: #ff5733;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        text-align: center;
+    }
+    .menu .l-2 {
+        background-color: #ff5733;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+    }
+    /* .menu .l-22 {
+        background-color: #ff5733;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+    } */
+    .menu .l-3 {
+        background-color: #ff5733;
+        position: absolute;
+        text-align: center;
+        top: 70%;
+    }
+    .cross .l-1 {
+        position: absolute;
+        transform: rotate(-45deg);
+        background-color: #23c731;
+        left: 10px;
+        top: 14px;
+    }
+    .cross .l-2 {
+        transform: translateX(-30px);
+        color: red;
+        width: 0px;
+    }
+    /* .cross .l-22 {
+        transform: translateX(30px);
+        color: red;
+        width: 0px;
+    } */
+    .cross .l-3 {
+        position: absolute;
+        transform: rotate(45deg);
+        background-color: #23c731;
+        left: 9px;
+        top: 13px;
+    }
+    /*   Second Menu Bar */
+    .menu-1 {
+        height: 30px;
+        width: 50px;
+        background-color: #daf7a6;
+        position: absolute;
+        float: right;
+        top: 18px;
+        margin-right: 20px;
+        position: relative;
+        border-radius: 0px 10px 0px 10px;
+        cursor: pointer;
+    }
+    .menu-1 span {
+        width: 30px;
+        height: 3px;
+        background-color: #daf7a6;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+        cursor: pointer;
+        z-index: 100;
+        transition: all 0.3s ease-in-out;
+    }
+    .menu-1 .l-1 {
+        width: 15px;
+        height: 3px;
+        background-color: #ff5733;
+        position: absolute;
+        top: 30%;
+        left: 35%;
+    }
+    .menu-1 .l-2 {
+        background-color: #ff5733;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+    }
+    .menu-1 .l-3 {
+        background-color: #ff5733;
+        position: absolute;
+        text-align: center;
+        top: 70%;
+        width: 15px;
+        height: 3px;
+        left: 65%;
+    }
+    .cross_1 {
+        background-color: #33e2ff;
+    }
+    .cross_1 .l-1 {
+        transform: rotate(45deg);
+        left: 11px;
+        background-color: #af33ff;
+    }
+    .cross_1 .l-2 {
+        transform: rotate(-45deg);
+        background-color: #af33ff;
+        left: 9px;
+    }
+    .cross_1 .l-3 {
+        transform: rotate(45deg);
+        background-color: #af33ff;
+        left: 23px;
+    }
 }
